@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Helvetica;
+}
+
+body {
+    color: white;
+    background-color:#2780cf;
+
+    animation: change-color 1s ease-in-out forwards;
+}
+
+@keyframes change-color {
+    from {
+        background-color: #2780cf;
+    }
+
+    to {
+        background-color: #08409c;
+    }
+}
+
+.logo {
+    width: 100px;
+
+    animation: load-in 1s ease-in-out forwards;
+}
+
+@keyframes load-in {
+    0% {
+        width: 100px;
+        translate: 0 0;
+    }
+
+    50% {
+        width: 300px;
+    }
+
+    90% {
+        width: 150px;
+    }
+
+    100% {
+        width: 130px;
+
+        translate: -200px 0;
+    }
+}
+
+.animation-container {
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}

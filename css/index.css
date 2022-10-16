@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Helvetica;
+}
+
+body {
+    color: white;
+    background-color:#2780cf;
+}
+
+.logo {
+    width: 100px;
+}
+
+#timer-container {
+    display: flex;
+
+    height: 90vh;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-btn {
+    opacity: 10%;
+    cursor: pointer;
+}
+
+#timer-container h1 {
+    font-size: 150px;
+}
+
+#timer-container h3 {
+    font-size: 50px;
+}
+
+.controls {
+    display: flex;
+
+    justify-content: center;
+}
+
+.controls input {
+    padding: 2px 2px;
+}
+
+.controls.hidden {
+    opacity: 0;
+}
